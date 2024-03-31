@@ -1,0 +1,190 @@
+.services {
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: #0f4a85;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.service {
+    width: 30%;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    font-family: "Droid Serif", "DejaVu Serif", "STIX", serif;
+}
+.service p {
+    font-family: "Lucida Blackletter", eufm10, blackletter;
+    font-size: 1em;
+}
+#topic{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.slideshow {
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+}
+
+.slides img {
+    width: 500%;
+    height: 200px;
+    object-fit: cover; /* Ensures images fill the slide area proportionally */
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+.slideshow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.slides {
+    display: flex; /* Arrange images horizontally */
+    transition: transform 0.8s ease-in-out; /* Smooth transition for slide changes */
+}
+
+.slides img {
+    width: 100%; /* Images fill the entire width of the slideshow container */
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures images fill the slide area proportionally */
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute; /* Position buttons within the slideshow */
+    top: 50%;
+    transform: translateY(-50%); /* Center buttons vertically */
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+.slides {
+    display: flex; /* Arrange images horizontally */
+    transition: transform 0.8s ease-in-out;
+}
+.slides img {
+    width: 100%;
+    /* Adjust height as needed */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D');
+    background-size:cover; /* Cover the entire background */
+    background-position:center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed;
+}
+#logo{
+    width: 150px !important;
+    height: auto;
+}
+.main-header {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D');
+    background-size:cover; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 38px 15px;
+    display: block;
+}
+nav a:hover {
+    color: white;
+}
+
+nav img{
+    margin-left: 130px;
+    margin-right: 0px;
+    margin-top: -10px;
+}

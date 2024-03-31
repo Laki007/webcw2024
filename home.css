@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D');
+    background-size:cover; /* Cover the entire background */
+    background-position:center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed;
+}
+#logo{
+    width: 150px !important;
+    height: auto;
+}
+
+.main-header{
+    color: #4a78c2;
+}
+
+h1 {
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 10em;
+    font-family: "Hiragino Kaku Gothic Pro";
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+dl {
+    margin-left: 20px;
+}
+hr {
+    border: none;
+    border-top: 2px solid #333;
+}
+address {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+sub {
+    font-size: 80%;
+    background-color: yellow; /* Highlighted background color */
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: page;
+    bottom:10px;
+    width: 100%;
+}
+
+.logo {
+    flex-grow: 0; /* Prevent logo from expanding */
+}
+
+.logo img {
+    width: 150px; /* Set logo width */
+    height: 150px;
+    float: left;
+}
+
+.product {
+    display: inline-block; /* Arrange boxes horizontally */
+    margin: 0; /* Remove default margins (optional) */
+    /* Other styles for the boxes... */
+}
+
+.Activities{
+    display:inline ;
+    margin: 0;
+}
+
+.container {
+    display: flex; /* Arrange boxes horizontally */
+}
+
+.box {
+    width: 500px; /* Set desired box width */
+    height: 450px;
+    margin: 10px;  /* Add spacing between boxes */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left; /* Align text to the left */
+}
+
+.box h2 {
+    margin-bottom: 10px; /* Space between title and image */
+    font-size: 18px;
+    font-weight: bold;
+    color: #0b57d0;
+}
+
+.box img {
+    width: 300px; /* Responsive image sizing */
+    height: 250px; /* Optional height limit */
+    object-fit: cover; /* Crop image to fit container */
+}
+
+.box p {
+    margin-top: 10px;
+    color: #0f4a85;
+    font-size: 1.3em;
+}
+.box {
+    background-position: center;
+    background-image: url("https://media.istockphoto.com/id/1475720137/photo/beach-sand-background-for-summer-vacation-concept-beach-nature-and-summer-seawater-with.jpg?s=2048x2048&w=is&k=20&c=kM6wHxMRLG6-fU87mlHJjsqtlYNWajoCdQRQjGEQBZQ=");
+}
+.product {
+    display: inline-block; /* Arrange boxes horizontally */
+    margin: 10px; /* Optional spacing between boxes */
+    width: 30%;
+    height:10px;
+    text-align: center; /* Center content within boxes */
+    box-sizing: border-box; /* Ensure box width includes padding and border */
+}
+/* Shared styles for product and activity boxes */
+.product-item,
+.activities-item {
+    display: inline-block; /* Arrange boxes horizontally */
+    margin: 10px; /* Optional spacing between boxes */
+    width: 30%;
+    height:10px;
+    text-align: center; /* Center content within boxes */
+    box-sizing: border-box; /* Ensure box width includes padding and border */
+}
+
+/* Additional styles for product boxes */
+.product-item {
+    background-color: #f0f0f0; /* Optional background color */
+    padding: 15px; /* Add padding around content */
+    border: 1px solid #ddd; /* Optional border */
+}
+
+/* Additional styles for activity boxes */
+.activities-item {
+    background-color: #eee; /* Optional background color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.box{
+    text-decoration-color: #0b0d0e;
+
+}
+.intro-text {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.intro-text h1 {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 8em;
+    margin-bottom: 20px;
+}
+.intro-text p {
+    font-size: 2em;
+    font-family: "Tempus Sans ITC";
+}
+.box {
+
+    display: inline-block;  /* This lines them up horizontally */
+    margin-right: 5px;    /* Add space between boxes */
+    width: 20%;           /* Optional: Set a fixed width for consistent layout */
+}
+
+.Activities{
+    margin: 30px;
+    border: 30px;
+    height: 500px;
+    width : 310px;
+    margin-right: 100px;
+    border-radius: 10px;
+    background-color: #76a5c0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+
+box h2{
+    display: block;
+    width: 95%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:
+            -1px -1px 0 rgb(15, 24, 100),
+            1px -1px 0 rgb(15, 24, 100),
+            -1px 1px 0 rgb(15, 24, 100),
+            1px 1px 0 rgb(15, 24, 100);
+}
+
+.product-item-img{
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+
+
+}
+.product-item-img {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    color: #333;
+
+}
+.Box-options{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    padding: 5px;
+    color: #503c3c;
+}
+.box {
+    margin: 10px; /* Add some margin for spacing */
+    padding: 20px; /* Add some padding for content */
+    background-color: #fff; /* Set background color to white */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    transition: all 0.2s ease-in-out; /* Smooth transition effects */
+    cursor: default; /* Set default cursor style */
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: scale(1.02); /* Slight zoom effect on hover (optional) */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.activities {
+    display: flex; /* Arrange boxes horizontally */
+    flex-wrap: wrap; /* Wrap boxes to multiple lines if needed */
+    justify-content: space-between; /* Distribute boxes evenly */
+}
+
+
+.main-header {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D');
+    background-size:cover; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 38px 15px;
+    display: block;
+}
+nav a:hover {
+    color: white;
+}
+
+nav img{
+    margin-left: 130px;
+    margin-right: 0px;
+    margin-top: -10px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Resort Name] - Reservations</title>
+    <link rel="stylesheet" href="Reservation.css"> </head>
+<body>
+
+<header>
+    <header class="main-header">
+        <nav>
+           <img src="images\other\LogoTransparent.png" id='logo'>
+           <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="About us.html">About Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="Activities.html">Activities</a></li>
+              <li><a href="Reservation.html">Reservation</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="feedback.html">Feedback</a></li>
+              <li><a href="shop.html"><i class="fas fa-shopping-cart"></i></a></li>
+           </ul>
+        </nav>
+     </header>
+</header>
+
+<main>
+    <h2>Book Your Stay</h2>
+
+    <form id="reservation-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="arrival">Arrival Date:</label>
+        <input type="date" id="arrival" name="arrival" required>
+
+        <label for="departure">Departure Date:</label>
+        <input type="date" id="departure" name="departure" required>
+
+        <label for="guests">Number of Guests:</label>
+        <select id="guests" name="guests">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <label for="room-type">Room Type:</label>
+        <select id="room-type" name="room-type">
+            <option value="standard">Standard Room</option>
+            <option value="deluxe">Deluxe Room</option>
+            <option value="suite">Suite</option>
+        </select>
+
+        <button type="submit">Check Availability</button>
+    </form>
+
+    <p>**Note:** Upon submitting the form, you'll be redirected to a confirmation page or receive an email with further instructions (functionality to be added later).</p>
+</main>
+
+<footer class="limited-width">
+    <div class="container">
+        <p>&copy; 2024 Mahekal Beach Hotel. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#logo{
+  width: 150px !important;
+  height: auto;
+}
+
+.main-header {
+  background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-attachment: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 70px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 38px 15px;
+  display: block;
+}
+nav a:hover {
+  color: white;
+}
+
+nav img{
+  margin-left: 130px;
+  margin-right: 0px;
+  margin-top: -10px;
+}
+
+/* CSS for the sitemap */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+text {
+  color: white;
+  font-family: "Truculenta", sans-serif;
+  font-size: 16px;
+  text-anchor: middle;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+line {
+  stroke-width: 2;
+  stroke: #a2a2a2;
+}
+
+
+.child,
+.home,
+.sub1,
+.sub2,
+.sub3{
+  fill: white;
+}
+
+
+rect {
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+rect:hover{
+  filter: drop-shadow(0 0 10px white); /* Add glow effect on hover */
+}
+

@@ -1,0 +1,176 @@
+
+header h1 {
+    text-align: center;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo {
+    flex-grow: 0; /* Prevent logo from expanding */
+}
+
+.logo img {
+    width: 120px; /* Set logo width */
+    height: 120px;
+    float: left;
+}
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activity {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer; /* Let users know it's clickable */
+}
+
+.activity h3 {
+    margin-bottom: 10px;
+}
+
+.activity img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.activity p {
+    margin-top: 10px;
+}
+
+
+.Turtles img {
+    width: 400px; /* Adjust width as needed */
+    height: 400px;
+    float: left; /* Float image to the left */
+    margin-right: 1rem; /* Add space between image and text */
+}
+
+.Turtles p {/*
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;  /* Set width to 100% for full viewport coverage */
+    text-align: center; /* Optional: Center the content */
+    padding: 1rem;
+    background-color: #f1f1f1; /* Optional: Set background color */
+}
+.Turtles {
+    width: 1400px;
+    height: 500px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer; /* Let users know it's clickable */
+}
+.Turtles p{
+    font-size: 1.8em;
+}
+
+.box {
+    margin: 10px; /* Add some margin for spacing */
+    padding: 20px; /* Add some padding for content */
+    background-color: #4a78c2; /* Set background color to white */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    transition: all 0.2s ease-in-out; /* Smooth transition effects */
+    cursor: default; /* Set default cursor style */
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: scale(1.02); /* Slight zoom effect on hover (optional) */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.activities {
+    display: flex; /* Arrange boxes horizontally */
+    flex-wrap: wrap; /* Wrap boxes to multiple lines if needed */
+    justify-content: space-between; /* Distribute boxes evenly */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D');
+    background-size:cover; /* Cover the entire background */
+    background-position:center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed;
+}
+.main-header {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D');
+    background-size:cover; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 38px 15px;
+    display: block;
+}
+nav a:hover {
+    color: white;
+}
+
+nav img{
+    margin-left: 130px;
+    margin-right: 0px;
+    margin-top: -10px;
+}
+#logo{
+    width: 150px !important;
+    height: auto;
+}

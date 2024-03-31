@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: orchid;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: pink;
+
+}
+
+.user-info p {
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.edited-pages {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.edited-pages li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.edited-pages li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.edited-pages li a:hover {
+  color: #333;
+}
+
+.edited-pages li span {
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 10px;
+}

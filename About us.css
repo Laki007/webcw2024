@@ -1,0 +1,165 @@
+h1 {
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 10em;
+    font-family: "Hiragino Kaku Gothic Pro";
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+dl {
+    margin-left: 20px;
+}
+hr {
+    border: none;
+    border-top: 2px solid #333;
+}
+address {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+sub {
+    font-size: 80%;
+    background-color: yellow; /* Highlighted background color */
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: page;
+    bottom:10px;
+    width: 100%;
+}
+main {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em; /* Larger subheading size */
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+}
+
+h2:hover {
+    color: #333; /* Darker color on hover */
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px; /* Larger paragraph text */
+    transition: color 0.3s ease-in-out; /* Smooth text color transition on hover */
+}
+
+p:hover {
+    color: #666; /* Slightly darker text on hover */
+}
+
+main img {
+    width: 400px;
+    height: 400px;/* Increase image size */
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transition: transform 0.3s ease-in-out; /* Smooth image transformation on hover */
+}
+
+main img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+}
+
+#sustainability {
+    
+    padding: 20px;
+    border-radius: 5px; /* Subtle rounded corners */
+}
+
+.sustainability-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.action {
+    width: calc(30% - 20px); /* Adjusted width for more actions per row */
+    margin: 10px;
+    text-align: center;
+}
+
+.action h3 {
+    font-size: 1.3em; /* Increased heading size */
+    margin-bottom: 5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D');
+    background-size:cover; /* Cover the entire background */
+    background-position:center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed;
+}
+.main-header {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D');
+    background-size:cover; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 38px 15px;
+    display: block;
+}
+nav a:hover {
+    color: white;
+}
+
+nav img{
+    margin-left: 130px;
+    margin-right: 0px;
+    margin-top: -10px;
+}
+#logo{
+    width: 150px !important;
+    height: auto;
+}

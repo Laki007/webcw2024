@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url('images/other/bg2.png');
+    background-size:cover; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+}
+
+.video-container {
+    top: 0px;
+    margin-left: 480px;
+    width: 400px;
+    height: 70%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-container img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+
+}
+
+.mission{
+ color :#7892c2;
+ text-align: center;
+ width: 1000px;
+ font-size: 30px;
+ margin-left: 180px;
+ padding-top: 30px;
+ 
+}
+.members{
+    color :#7892c2;
+    text-align: justify;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 450px;
+    position: fixed;
+    padding: 10px;
+   
+}
+.members ul{
+    list-style-type:none; 
+}

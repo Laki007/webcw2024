@@ -1,0 +1,139 @@
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allows sections to wrap to next line if needed */
+  justify-content: space-between; /* Distributes sections evenly */
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+.activity {
+  width: 30%; /* Adjust width as needed for sections */
+  padding: 20px;
+  text-align: center; /* Centers content within sections */
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Ensures padding adds to width */
+}
+
+.scuba-diving {
+  background-color: #3CB371; /* Green background */
+  color: white; /* White text for better contrast */
+}
+
+.surfing {
+  background-color: #F7CA18; /* Yellow background */
+  color: black; /* Black text for better contrast */
+}
+
+.boat-journey {
+  background-color: #3498DB; /* Blue background */
+  color: white; /* White text for better contrast */
+}
+
+.activity h2 {
+  margin-top: 0; /* Removes default margin for cleaner spacing */
+  margin-bottom: 10px;
+}
+
+.activity p {
+  font-size: 0.9em; /* Adjust font size as needed */
+}
+
+/* Optional: Responsive image styles */
+img {
+  width: 100%; /* Images scale to fit section width */
+  height: auto; /* Maintains image aspect ratio */
+}
+body h1{
+  text-align: center;
+  color: #0f4a85;
+}
+body h2{
+  color: #0b57d0;
+  font-family: Cantarell;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  border: #0b57d0;
+  border-radius: 2em;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding: 30px;
+}
+header{
+  background-image: url("LogoTransparent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+
+main h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logo {
+  flex-grow: 0; /* Prevent logo from expanding */
+}
+
+.logo img {
+  width: 120px; /* Set logo width */
+  height: 120px;
+  float: left;
+}
+
+
+
+.activity h3 {
+  margin-bottom: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer; /* Changing cursor to pointer to indicate clickable */
+  float: left;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav{
+  padding: 30px;
+}
